@@ -61,13 +61,13 @@ def NewtonRaphson(gamma,imax,M2,tol,vM2):
 
 if __name__ == "__main__":
     # Initial guess
-    M2 = 3
+    M2 = 4
     # Tolerence
     tol = 1e-6
     # Max interations
     imax = 1000
     # Variables/constants
     gamma = 1.4
-    vM2 = np.deg2rad(56.3798)
+    vM2 = np.deg2rad(80.7848)
     # Run Program
     main(gamma,imax,M2,tol,vM2)
