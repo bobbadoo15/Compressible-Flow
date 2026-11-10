@@ -101,8 +101,8 @@ def results(b,greek):
 if __name__ == "__main__":
     # Constants
     gamma = 1.4
-    M = 5.443
+    M = float(input("What is the Mach flow: "))
     pi = np.pi
-    theta = np.deg2rad(15)
+    theta = np.deg2rad(float(input("What is the theta value in deg: ")))
     # Run Program
     main()
